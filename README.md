@@ -6,6 +6,30 @@ access points. It can also analyze a wireless access point and provide us with d
 all the stations associated with it. It can be controlled remotely over the internet by
 use of remote desktop protocol. 
 
+***
+# Hardware Requirements :-
+
+|H/w used|
+| :----:|
+|Raspberry Pi 3B+ |
+|GoPigo2 |
+|Kali Linux Compaitable Wireless Adapter|
+|Class 10 SD Card(16 GB)|
+|Pi Cam|
+
+***
+
+# Software Requirements
+|S/w used|
+| :---:|
+|Kali Linux OS |
+|Python 3|
+|Aircrack-ng suite|
+|Tkinter|
+|Selenium|
+|BS4|
+
+***
 
 | Team Members  |
 | :-----------: |
