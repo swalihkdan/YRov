@@ -7,7 +7,7 @@ all the stations associated with it. It can be controlled remotely over the inte
 use of remote desktop protocol. 
 
 ***
-# Hardware Requirements :-
+## Hardware Requirements :-
 
 |H/w used|
 | :----:|
@@ -19,7 +19,7 @@ use of remote desktop protocol.
 
 ***
 
-# Software Requirements
+## Software Requirements
 |S/w used|
 | :---:|
 |Kali Linux OS |
@@ -30,7 +30,7 @@ use of remote desktop protocol.
 |BS4|
 
 ***
-
+## Team Members
 | Team Members  |
 | :-----------: |
 | Rezwin Rafeek |
