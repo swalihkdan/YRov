@@ -1,5 +1,5 @@
 ***
-**[Setup Instructions](./Files/setup_instructions.md)**   **[Changelog](./Files/changelog.md)**
+**[Setup Instructions](./Files/setup_instructions.md)**  |  **[Changelog](./Files/changelog.md)**
 ***
 # YROV
 Y-rov is a military rover that is capable of performing surveillance over a certain area
