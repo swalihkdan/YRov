@@ -14,8 +14,7 @@ Etcher can be downloaded from  [here](https://www.balena.io/etcher/)
 alternatively you can also download it as a zip file in that case use ``unzip YRov-Master.zip`` to unzip the files
 
 * create a folder named logs inside YRov/Python Scripts/Jammer with CLI Interface/
-`` cd YRov/Python Scripts/Jammer with CLI Interface/ ``
-``mkdir logs``
+`` cd YRov/Python Scripts/Jammer with CLI Interface/ ; mkdir logs``
 
 ### Step 4 : Installing xterm
 * Install xterm by typing in the terminal  ``apt install xterm ``
