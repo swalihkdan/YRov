@@ -1,4 +1,10 @@
 # Changelog
 
-## Day 1 - 
-Burned OS Image to SD Card
+***
+* Burned OS Image to SD Card
+***
+* downloaded repository
+* created log folder
+* updated system
+* installed xterm
+***
