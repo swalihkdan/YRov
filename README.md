@@ -19,7 +19,8 @@ use of remote desktop protocol.
 
 ***
 
-## Software Requirements
+## Software Requirements :-
+
 |S/w used|
 | :---:|
 |Kali Linux OS |
@@ -30,7 +31,8 @@ use of remote desktop protocol.
 |BS4|
 
 ***
-## Team Members
+## Team Members :-
+
 | Team Members  |
 | :-----------: |
 | Rezwin Rafeek |
