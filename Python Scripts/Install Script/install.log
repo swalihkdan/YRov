@@ -1,1 +1,10 @@
-2020-05-13 17:44:42,440 test Init
+2020-05-14 15:38:56,536 - root - INFO - Inside function install_puppet
+2020-05-14 15:38:56,537 - root - INFO - running ' wget https://apt.puppetlabs.com/puppet5-release-wheezy.deb ' command
+2020-05-14 15:38:57,022 - root - INFO - command 'wget https://apt.puppetlabs.com/puppet5-release-wheezy.deb' executed succesfully
+2020-05-14 15:38:57,026 - root - INFO - downloaded puppetlabs repo file
+2020-05-14 15:38:57,032 - root - INFO - running ' sudo dpkg -i puppet5-release-wheezy.deb ' command
+2020-05-14 15:38:57,885 - root - INFO - command 'sudo dpkg -i puppet5-release-wheezy.deb' executed succesfully
+2020-05-14 15:38:57,886 - root - INFO - successfully added puppet repo
+2020-05-14 15:38:57,887 - root - INFO - running ' sudo rm -rf puppet5-release-wheezy.deb ' command
+2020-05-14 15:38:57,937 - root - INFO - command 'sudo rm -rf puppet5-release-wheezy.deb' executed succesfully
+2020-05-14 15:38:57,938 - root - INFO - removing puppet files
