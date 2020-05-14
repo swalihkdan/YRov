@@ -55,11 +55,16 @@ def run_command(command_as_list):
         if return_code == 0:
             logger.info('command \'{}\' executed succesfully'.format(command))
             print(output)
+        else:
+            logger.error(
+                'command \'{}\' exited with error {}'.format(command, error))
+            sys.exit(1)
+
     except Exception as e:
         logger.error(
             'command \'{}\' exited with error {}'.format(command, e))
 
-        sys.exit()
+        sys.exit(1)
 
 
 #___________________________________________________Install_Puppet_Confuguration_Manager_________________________________________________________________________________________#
@@ -78,7 +83,10 @@ def install_puppet():
     run_command(['sudo', 'rm', '-rf', 'puppet5-release-wheezy.deb'])
     logger.info("removing puppet files")
 
-    run_command(['sudo', 'apt', 'install', 'puppet-agent'])
+    run_command(['sudo', 'apt', 'update', '-y'])
+    logger.info("updating repos")
+
+    run_command(['sudo', 'apt', 'install', '-y', 'puppet-agent'])
     logger.info("installing puppet agent")
 
 #_________________________________________________________________________________________________________________________________________________#
