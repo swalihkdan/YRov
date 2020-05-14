@@ -54,12 +54,11 @@ def run_command(command_as_list):
 
         if return_code == 0:
             logger.info('command \'{}\' executed succesfully'.format(command))
-            print('command \'{}\' executed succesfully'.format(command))
+            print(output)
     except Exception as e:
         logger.error(
             'command \'{}\' exited with error {}'.format(command, e))
-        print(
-            'command \'{}\' exited with error {}'.format(command, e))
+
         sys.exit()
 
 
