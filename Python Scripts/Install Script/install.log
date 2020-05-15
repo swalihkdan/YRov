@@ -1,18 +1,18 @@
-2020-05-14 16:05:14,520 - root - INFO - Inside function install_puppet
-2020-05-14 16:05:14,521 - root - INFO - running ' wget https://apt.puppetlabs.com/puppet5-release-wheezy.deb ' command
-2020-05-14 16:05:15,052 - root - INFO - command 'wget https://apt.puppetlabs.com/puppet5-release-wheezy.deb' executed succesfully
-2020-05-14 16:05:15,054 - root - INFO - downloaded puppetlabs repo file
-2020-05-14 16:05:15,055 - root - INFO - running ' sudo dpkg -i puppet5-release-wheezy.deb ' command
-2020-05-14 16:05:15,785 - root - INFO - command 'sudo dpkg -i puppet5-release-wheezy.deb' executed succesfully
-2020-05-14 16:05:15,793 - root - INFO - successfully added puppet repo
-2020-05-14 16:05:15,794 - root - INFO - running ' sudo rm -rf puppet5-release-wheezy.deb ' command
-2020-05-14 16:05:15,856 - root - INFO - command 'sudo rm -rf puppet5-release-wheezy.deb' executed succesfully
-2020-05-14 16:05:15,857 - root - INFO - removing puppet files
-2020-05-14 16:05:15,858 - root - INFO - running ' sudo apt update -y ' command
-2020-05-14 16:05:22,466 - root - INFO - command 'sudo apt update -y' executed succesfully
-2020-05-14 16:05:22,479 - root - INFO - updating repos
-2020-05-14 16:05:22,479 - root - INFO - running ' sudo apt install -y puppet-agent ' command
-2020-05-14 16:05:47,678 - root - ERROR - command 'sudo apt install -y puppet-agent' exited with error 
+2020-05-15 16:27:59,370 - root - INFO - Inside function install_puppet
+2020-05-15 16:27:59,370 - root - INFO - running ' wget https://apt.puppetlabs.com/puppet5-release-wheezy.deb ' command
+2020-05-15 16:27:59,642 - root - INFO - command 'wget https://apt.puppetlabs.com/puppet5-release-wheezy.deb' executed succesfully
+2020-05-15 16:27:59,643 - root - INFO - downloaded puppetlabs repo file
+2020-05-15 16:27:59,644 - root - INFO - running ' sudo dpkg -i puppet5-release-wheezy.deb ' command
+2020-05-15 16:28:07,429 - root - INFO - command 'sudo dpkg -i puppet5-release-wheezy.deb' executed succesfully
+2020-05-15 16:28:07,430 - root - INFO - successfully added puppet repo
+2020-05-15 16:28:07,431 - root - INFO - running ' sudo rm -rf puppet5-release-wheezy.deb ' command
+2020-05-15 16:28:07,493 - root - INFO - command 'sudo rm -rf puppet5-release-wheezy.deb' executed succesfully
+2020-05-15 16:28:07,495 - root - INFO - removing puppet files
+2020-05-15 16:28:07,495 - root - INFO - running ' sudo apt update -y ' command
+2020-05-15 16:28:39,688 - root - INFO - command 'sudo apt update -y' executed succesfully
+2020-05-15 16:28:39,693 - root - INFO - updating repos
+2020-05-15 16:28:39,693 - root - INFO - running ' sudo apt install -y puppet-agent ' command
+2020-05-15 16:29:19,355 - root - ERROR - command 'sudo apt install -y puppet-agent' exited with error 
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 debconf: unable to initialize frontend: Dialog

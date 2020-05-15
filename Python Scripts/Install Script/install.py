@@ -89,6 +89,14 @@ def install_puppet():
     run_command(['sudo', 'apt', 'install', '-y', 'puppet-agent'])
     logger.info("installing puppet agent")
 
+    run_command(['PATH=$PATH:/opt/puppetlabs/bin/'])
+    logger.info("temporarily added puppet to path")
+
+#__________________________________________________________Download_and_execute mrov.pp___________________________________________________________________________________#
+
+
+def execute_mrov_puppet():
+    pass
 #_________________________________________________________________________________________________________________________________________________#
 
 
