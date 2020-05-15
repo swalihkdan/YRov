@@ -8,7 +8,6 @@ Installation Candidate for MROV
 import sys
 import datetime
 import os
-import psutil
 import logging
 import subprocess
 
