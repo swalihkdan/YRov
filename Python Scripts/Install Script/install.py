@@ -59,12 +59,14 @@ def run_command(command_as_list):
             logger.error(
                 'command \'{}\' exited with error {}'.format(command, error))
             sys.exit(1)
+            logger.info("Exiting program")
 
     except Exception as e:
         logger.error(
             'command \'{}\' exited with error {}'.format(command, e))
 
         sys.exit(1)
+        logger.info("Exiting program")
 
 
 #___________________________________________________Install_Puppet_Confuguration_Manager_________________________________________________________________________________________#
@@ -86,21 +88,28 @@ def install_puppet():
     run_command(['sudo', 'apt', 'update', '-y'])
     logger.info("updating repos")
 
-    run_command(['sudo', 'apt', 'install', '-y', 'puppet-agent'])
+    # run_command(['sudo', 'apt', 'install', '-y', 'puppet-agent'])
+    run_command(['sudo', 'apt', 'install', '-y', 'puppet'])
     logger.info("installing puppet agent")
 
-    run_command(['PATH=$PATH:/opt/puppetlabs/bin/'])
-    logger.info("temporarily added puppet to path")
+    # run_command(['PATH=$PATH:/opt/puppetlabs/bin/'])
+    # logger.info("temporarily added puppet to path")
 
 #__________________________________________________________Download_and_execute mrov.pp___________________________________________________________________________________#
 
 
 def execute_mrov_puppet():
-    pass
+    run_command(['wget', 'https://tinyurl.com/yrov-puppet', '-O', 'yrov.pp'])
+    logger.info('Downloaded yrov.pp')
+
+    # run_command(['sudo', '/opt/puppetlabs/bin/puppet', 'apply', 'yrov.pp'])
+    run_command(['sudo', 'puppet', 'apply', 'yrov.pp'])
+    logger.info('executed yrov.pp')
 #_________________________________________________________________________________________________________________________________________________#
 
 
 if __name__ == "__main__":
     install_puppet()
+    execute_mrov_puppet()
 
 #_________________________________________________________________________________________________________________________________________________#
