@@ -104,11 +104,18 @@ def execute_mrov_puppet():
     # run_command(['sudo', '/opt/puppetlabs/bin/puppet', 'apply', 'yrov.pp'])
     run_command(['sudo', 'puppet', 'apply', 'yrov.pp'])
     logger.info('executed yrov.pp')
+#___________________________________________________________Clone project files______________________________________________________________________________________#
+
+
+def clone_project_files():
+    run_command(['git', 'clone', 'https://github.com/rezraf77/YRov.git'])
+    logger.info('Cloned project repository')
 #_________________________________________________________________________________________________________________________________________________#
 
 
 if __name__ == "__main__":
     install_puppet()
     execute_mrov_puppet()
+    clone_project_files()
 
 #_________________________________________________________________________________________________________________________________________________#
